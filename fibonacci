@@ -1,0 +1,18 @@
+def fibo_rec(n):
+    if n < 2:
+        return n
+    else:
+        return fibo_rec(n-2) + fibo_rec(n-1)
+	
+pass
+
+print(fibo_rec(8))
+
+def fib(n):
+    a =0 
+    b= 1
+    while a < n:
+        print(a, end=' ')
+        a, b = b, a+b
+    
+print(fibo(10))
